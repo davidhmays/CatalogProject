@@ -2,7 +2,11 @@
 
 namespace CatalogEntityLibrary
 {
-    public class Class1
+    public class Wowee
     {
+        public int Epic()
+        {
+            return 5;
+        }
     }
 }
