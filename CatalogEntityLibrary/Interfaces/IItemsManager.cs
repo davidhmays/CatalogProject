@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using CatalogEntityLibrary.Entities;
 
-namespace CatalogEntityLibrary.Repositories
+namespace CatalogEntityLibrary.Interfaces
 {
-    public interface IItemsRepository
+    public interface IItemsManager
     {
         Item GetItem(Guid id);
         IEnumerable<Item> GetItems();
